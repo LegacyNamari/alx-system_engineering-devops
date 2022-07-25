@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Displays all processes  running
+function ProCheck () 
+{
+ps  -e auxf
+}
+ProCheck 
