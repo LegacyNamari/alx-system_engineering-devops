@@ -5,10 +5,10 @@ do
    if (( num % 3 == 0 && num % 5 == 0 ))
    then
       echo "FizzBuzz"
-   elif (( num % 3 ))
+   elif (( num % 3 == 0))
    then
       echo "Fizz"
-   elif ((num % 5 ))
+   elif ((num % 5 == 0 ))
    then
       echo "Buzz"
    else
