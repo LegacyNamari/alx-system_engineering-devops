@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Displays pid without using ps
+function ProCheck()
+{
+pgrep -l bash
+}
+ProCheck
