@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#list all files in current directory
+for x in *; do echo "$x" | cut -d '-' -f 2 
+done
