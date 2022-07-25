@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Displays all processes  running on bash only
+#shellcheck disable=SC2009
+function ProCheck () 
+{
+ps  -e auxf | grep "bash"
+}
+ProCheck 
