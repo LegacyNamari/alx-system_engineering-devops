@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Script that runs whoami using a diffrent user other than root.
+
+sudo -u "$1" 'whoami'
+
